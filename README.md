@@ -21,17 +21,17 @@ Navigate to Server and Client Folders:
 
 In each terminal, navigate to the server and client folders:
 
-bash
+```bash
 Copy code
 cd server
-bash
+```bash
 Copy code
 cd client
 Install Dependencies:
 
 In each terminal, run npm install to install the project dependencies for both the server and client:
 
-bash
+```bash
 Copy code
 npm install
 Create .env Files:
@@ -40,12 +40,12 @@ Create a .env file in the root directory of both the server and client folders. 
 
 For the client, add the following content to the .env file:
 
-plaintext
+```plaintext
 Copy code
 EXPO_PUBLIC_API_URL=http://192.168.0.110:8002
 For the server, add the following content to the .env file:
 
-plaintext
+```plaintext
 Copy code
 PORT=8002
 DB_USERNAME=mayureshKhole
@@ -62,12 +62,12 @@ In each terminal, start the server and client using the following commands:
 
 For the server:
 
-bash
+```bash
 Copy code
 npm start server
 For the client:
 
-bash
+```bash
 Copy code
 npm start client
 This will launch your server and client applications, and they will run concurrently.
