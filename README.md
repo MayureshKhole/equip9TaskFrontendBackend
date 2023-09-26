@@ -75,12 +75,14 @@ In each terminal, start the server and client using the following commands:
 
   ```
   npm start server
+  ```
   
 
 - For the client:
 
   ```
   npm start client
+  ```
   
 
 This will launch your server and client applications, and they will run concurrently.
